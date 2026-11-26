@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rakha Profil — Situs web resmi yang memuat pembukaan, profil pendidikan di SMK Telkom Malang jurusan Teknik Komputer & Jaringan, serta informasi kontak." />
+  <title>Rakha Profil — Beranda Resmi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Rakha Profil Beranda">
+        <span class="brand-mark" aria-hidden="true">RP</span>
+        <span>Rakha Profil</span>
+      </a>
+
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+
+      <nav class="site-nav" aria-label="Navigasi Utama" data-nav-menu>
+        <a href="index.html" class="nav-link" data-page="beranda">Beranda</a>
+        <a href="profil.html" class="nav-link" data-page="profil">Profil</a>
+        <a href="kontak.html" class="nav-link" data-page="kontak">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-indicator">
+        <span class="page-indicator-dot" aria-hidden="true"></span>
+        <span>Halaman 1 dari 3 &bull; Pembukaan</span>
+      </div>
+
+      <section class="hero-card" aria-labelledby="hero-heading">
+        <h1 id="hero-heading" class="hero-title">Rakha Profil</h1>
+        <p class="hero-subtitle">
+          Mengenal Identitas Akademik, Dedikasi Belajar, dan Kompetensi di Bidang Teknik Komputer &amp; Jaringan
+        </p>
+        <div class="formal-divider" aria-hidden="true"></div>
+
+        <p class="hero-lead">
+          Selamat datang di laman resmi <strong>Rakha Profil</strong>. Situs web ini disusun sebagai sarana informasi resmi untuk memperkenalkan identitas pribadi, latar belakang pendidikan kejuruan, serta jalur komunikasi formal bagi rekan sejawat, pendidik, maupun pihak terkait.
+        </p>
+        <p class="hero-lead">
+          Setiap halaman dirancang secara terstruktur agar informasi dapat diakses dengan jelas, ringkas, dan profesional. Silakan melanjutkan ke halaman kedua untuk melihat profil lengkap, atau langsung menuju halaman terakhir untuk informasi kontak.
+        </p>
+
+        <div class="hero-actions">
+          <a href="profil.html" class="btn btn-primary">
+            Lihat Profil Saya
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+          <a href="kontak.html" class="btn btn-secondary">Informasi Kontak</a>
+        </div>
+      </section>
+
+      <section class="section-grid" aria-label="Ringkasan Halaman">
+        <article class="info-card">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+              <path d="M6 12v5c3 3 9 3 12 0v-5" />
+            </svg>
+          </div>
+          <h2 class="card-title">Latar Belakang Pendidikan</h2>
+          <p class="card-text">
+            Menempuh pendidikan menengah kejuruan di SMK Telkom Malang dengan komitmen tinggi terhadap kedisiplinan dan pengembangan diri.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <h2 class="card-title">Fokus Keahlian</h2>
+          <p class="card-text">
+            Mempelajari bidang Teknik Komputer &amp; Jaringan, mencakup arsitektur jaringan, administrasi sistem, dan pengelolaan perangkat keras.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+          </div>
+          <h2 class="card-title">Korespondensi Resmi</h2>
+          <p class="card-text">
+            Informasi akun Instagram tersedia pada halaman terakhir guna memudahkan komunikasi formal dan pertukaran informasi.
+          </p>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 Rakha Profil &mdash; Rakha Irawan Syahputra</span>
+      <div class="footer-links">
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
